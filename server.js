@@ -67,7 +67,7 @@ app.get('*', function(req, res) {
 const requestHandler = (request, response) => {}
 const server = http.createServer(app)
 
-server.listen($PORT, (err) => {
+server.listen(PORT, (err) => {
   if(err) {
     return console.log('error', err)
   }
